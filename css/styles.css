@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: blue;
+  color: var(--main-text-color);
 }
 .link {
   text-decoration: none;
@@ -102,7 +102,7 @@ body {
   line-height: 1.18;
   align-items: center;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+ 
   cursor: pointer;
   color: var(--first-btn-color);
   background-color: var(--accent-color);
@@ -183,16 +183,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
-  text-transform: uppercase;
   cursor: pointer;
   color: var(--accent-color);
-  background-color: #f4f4fd;
+  background-color: #f4f4fd;  
 }
 
 .filtr-button :hover {
  background-color: var(--accent-color);
  color:#ffffff;
 }
+
+.filtr-button :focus {
+  background-color: var(--accent-color);
+  color:#ffffff;
+ }
 
 .portfolio-title {
   font-size: 20px;
